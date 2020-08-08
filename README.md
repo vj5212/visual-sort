@@ -5,7 +5,7 @@ A static website that visualizes fundamental sorting algorithms.
 Visual Sort is a Javascript application that visualizes the swapping of elemnts in a sorting algorithm. The app lets the user choose from Bubble Sort, Merge Sort, and Quick Sort in which users can additionally choose varying lengths of the array to visualize. It has a very clean UI allowing users to easily understand the priciples behind sorting and also provides additional information and external sources about each algorithm to explore further.
 Landing Page             |  Visualizer
 :-------------------------:|:-------------------------:
-![](https://drive.google.com/file/d/1jUe10V_DtPLHeXXEM5dva17GLOGXrWVh/view?usp=sharing)  |  ![](https://drive.google.com/file/d/17aAPPxB7Fi-pMQhldGSpbhJHFs80ibR7/view?usp=sharing)
+![](https://ibb.co/n1Qzhc0)  |  ![](https://drive.google.com/file/d/17aAPPxB7Fi-pMQhldGSpbhJHFs80ibR7/view?usp=sharing)
 
 ## Installation
 * Clone this repository ```https://github.com/vj5212/visual-sort.git```
