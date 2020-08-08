@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Sort</title>
+    <link rel="stylesheet" href="mainStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <a class="brand" href="index.html"><h3>Visual Sort</h3></a>
+        <div class="nbar">
+            <a href="#" class="navText activeNav">Home</a>
+            <a href="about.html" class="navText">About</a>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="left">
+            <div class="inner">
+
+            </div>
+            <div class="choose">
+                <h1 id="sortType"></h1>
+                <label for="numElements">How many elements?</label>
+                <select name="elements" id="choose">
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                </select>
+                <button id="viz" >Visualize</button>
+                <button id="stop">Stop</button>
+
+            </div>
+            <div class="sort-descrip">
+              <p class="main-description">
+                Bubble Sort is overall the simplest and most straightforward sorting algorithm.
+                It uses a brute force technique that checks every element against its neighbor,
+                swapping them if they are out of order. The algorithm iterates through the array until
+                it is sorted. It is a comparison sort, and is named for how elements will
+                bubble to the top or bottom. It is also generally the least efficient sorting algorithm
+                in terms of time complexity.
+              </p>
+              <p class="time-complexity avg">Average Time Complexity: <span>O(n<sup>2</sup>)</span></p>
+              <p class="time-complexity worst">Worst Case Time Complexity: <span>O(n<sup>2</sup>)</span></p>
+              <p class="links">Links: <a href="https://en.wikipedia.org/wiki/Bubble_sort" target="_blank">Wikipedia</a> - <a href="https://www.geeksforgeeks.org/bubble-sort/" target="_blank">GeeksforGeeks Tutorial</a></p>
+            </div>
+        </div>
+        <div class="right">
+            <button id="bubbleBtn" class="algBtn">Bubble Sort</button>
+            <button id="mergeBtn" class="algBtn">Merge Sort</button>
+            <button id="quickBtn" class="algBtn">Quick Sort</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

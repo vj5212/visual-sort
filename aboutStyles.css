@@ -1,0 +1,121 @@
+
+body {
+  background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+  background-color: mediumspringgreen;
+  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav {
+  height: 8%;
+  width: 100%;
+  background-color: #05386B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navText {
+  margin-right: 2.5%;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 1.05em;
+}
+
+.navText:hover {
+  color: rgb(220, 220, 220);
+}
+
+.brand {
+  text-decoration: none;
+  margin-left: 2%;
+  font-size: 18px;
+}
+
+.nav h3 {
+  color: #41B3A3;
+  font-weight: 400;
+}
+
+.nbar {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.activeNav {
+  color: #41B3A3;
+  font-weight: 400;
+}
+
+.main-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title {
+  color: darkblue;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.info {
+  padding: 0 50px;
+  margin: 5% 0;
+  width: 55%;
+  height: 90%;
+  border: 5px solid white;
+  border-radius: 20px;
+  background: linear-gradient(to right, #15ffa566, #00fa9a33);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.description {
+  line-height: 25px;
+  text-align: center;
+  width: 80%;
+  justify-self: center;
+  margin-top: 0;
+  color: black;
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+.extra {
+  margin-top: 5px;
+  font-size: 18px;
+  color: darkblue;
+}
+
+.special {
+  font-weight: 500;
+  color: black;
+}
+
+.special a{
+  text-decoration: none;
+  color: black;
+}
+
+.special a:hover{
+  color: rgb(165, 165, 165);
+}
